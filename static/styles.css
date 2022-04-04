@@ -42,6 +42,21 @@ nav {
     font-size: 28px;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
 .main-container {
     background-color: #fbfef9;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    width: 85%;
+}
+
+#projects-container {
+    width: 40%;
+    text-align: center;
 }
