@@ -51,12 +51,23 @@ main {
 .main-container {
     background-color: #fbfef9;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 20px 10px;
     width: 85%;
 }
 
+.project-title {
+    margin: 0;
+}
+
 #projects-container {
-    width: 40%;
+    width: 45%;
     text-align: center;
+    padding: 10px;
+}
+
+.demo-button {
+    background-color: #0c6291;
+    color: white;
 }
