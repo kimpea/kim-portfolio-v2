@@ -1,8 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+body {
+    background-color: #a63446;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: 'Bayon', sans-serif;
+}
+
+#logo-title {
+    padding: 0px 15px;
+}
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #000004;
+    color: white;
+    font-family: 'Bayon', sans-serif;
 }
 
 .nav-list {
@@ -18,9 +35,13 @@ nav {
 
 .nav-list-item a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .nav-list-item a:hover {
-    font-size: 30px;
+    font-size: 28px;
+}
+
+.main-container {
+    background-color: #fbfef9;
 }
