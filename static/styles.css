@@ -4,3 +4,14 @@ nav {
     justify-content: space-between;
     background-color: #fff;
 }
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+    width: 60%;
+    margin: 15px 0px;
+    font-size: 25px;
+}
