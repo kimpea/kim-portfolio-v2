@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 body {
-    background-color: #a63446;
+    background-color: #ffcad4;
     margin: auto;
-}
-
-h1, h2 {
-    font-family: 'Bayon', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #logo-title {
@@ -17,7 +14,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #000004;
+    background-color: #c08497;
     color: white;
     font-family: 'Bayon', sans-serif;
 }
@@ -28,7 +25,7 @@ nav {
     align-items: center;
     padding: 0;
     list-style-type: none;
-    width: 60%;
+    width: 40%;
     margin: 15px 0px;
     font-size: 25px;
 }
@@ -42,32 +39,9 @@ nav {
     font-size: 28px;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-    padding: 20px 0px;
-}
-
-.main-container {
-    background-color: #fbfef9;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px 10px;
-    width: 85%;
-}
-
-.project-title {
-    margin: 0;
-}
-
-#projects-container {
-    width: 45%;
+#welcome-section {
+    background-color: white;
+    padding: 20px;
     text-align: center;
-    padding: 10px;
-}
-
-.demo-button {
-    background-color: #0c6291;
-    color: white;
+    font-size: 1.5rem;
 }
