@@ -28,17 +28,42 @@ nav {
     list-style-type: none;
     width: 40%;
     margin: 15px 0px;
-    font-size: 25px;
+    font-size: 1.3rem;
 }
 
 .nav-list-item a {
     text-decoration: none;
     color: white;
+    transition: 0.3s;
 }
 
 .nav-list-item a:hover {
     font-size: 28px;
 }
+
+@media (max-width:650px) {
+    #logo-title {
+        margin: 10px 0px;
+    }
+    
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+    .nav-list {
+        font-size: 0.7rem;
+        margin: 10px 0px;
+    }
+    .nav-list-item a {
+        padding: 0px 5px;
+    }
+    .nav-list-item a:hover {
+        font-size: 0.7rem;
+    }
+}
+
 
 #welcome-section {
     background-color: #023e8a;
@@ -51,6 +76,12 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:650px) {
+    #welcome-section {
+        font-size: 1rem;
+    }
 }
 
 #projects {
@@ -74,6 +105,19 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+#profile-link {
+    text-decoration: none;
+    color: white;
+    background-color: #023e8a;
+    padding: 10px;
+    margin: 15px 0px;
+    transition: 0.3s;
+}
+
+#profile-link:hover {
+    background-color: #03045e;
 }
 
 .project-tile {
@@ -102,6 +146,22 @@ nav {
     text-align: center;
 }
 
+@media (max-width:650px) {
+    #projects h2 {
+        font-size: 1rem;
+        border-bottom: 0.2rem solid white;
+    }
+    #projects-grid {
+        flex-direction: column;
+    }
+    .project-tile {
+        width: 90%;
+    }
+    .project-name {
+        font-size: 0.9rem;
+    }
+}
+
 footer {
     display: flex;
     flex-direction: column;
@@ -128,8 +188,28 @@ footer h2 {
     padding: 0px 10px;
     text-decoration: none;
     color: white;
+    transition: 0.3s;
+}
+
+#social-list li a:hover {
+    font-size: 1.1rem;
 }
 
 #social-list i {
     padding: 0px 5px;
+}
+
+@media (max-width:650px) {
+    footer h2 {
+        font-size: 1.2rem;
+    }
+    #social-list {
+        flex-direction: column;
+    }
+    #social-list li a {
+        font-size: 0.8rem;
+    }
+    #social-list li a:hover {
+        font-size: 0.8rem;
+    }
 }
