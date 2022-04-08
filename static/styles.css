@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: white;
     margin: auto;
@@ -68,7 +72,6 @@ nav {
 #welcome-section {
     background-color: #023e8a;
     color: white;
-    padding: 20px;
     text-align: center;
     font-size: 1.5rem;
     height: 100vh;
