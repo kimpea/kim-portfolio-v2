@@ -138,6 +138,11 @@ nav {
 
 .project-image {
     width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .project-name {
@@ -148,6 +153,15 @@ nav {
     color: white;
     width: 100%;
     text-align: center;
+}
+
+.project-description {
+    background-color: #023e8a;
+    color: white;
+    font-size: 0.9rem;
+    width: 100%;
+    text-align: center;
+    margin: 0px 5px 10px 5px;
 }
 
 @media (max-width:650px) {
